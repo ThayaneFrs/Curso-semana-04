@@ -1,6 +1,8 @@
 package main;
 
 import arvore.Arvores;
+import emissaodecarbono.EmissaoDeCarbono;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +11,6 @@ public class Main {
         System.out.println("Oxigenio produzido: " + arvores.calcularOxigenio() + " gramas por dia");
 
     }
+}
 
-    }
 
